@@ -1,0 +1,17 @@
+[include]
+    path = ~/.gitconfig.secret
+
+[alias]
+    co = checkout
+    cob = checkout -b
+    undo = reset --soft HEAD^
+    cm = commit -m
+
+[push]
+    default = simple
+
+[status]
+    showUntrackedFiles = all
+[user]
+	name = Hershel
+	email = hershelam@gmail.com
