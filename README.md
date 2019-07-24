@@ -19,6 +19,9 @@ terminal info: <br>
 Setup Multiple SSH Keys (Personal / Work): 
 https://www.freecodecamp.org/news/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca/
 
+Install miniconda for mac (bash):
+http://deeplearning.lipingyang.org/2018/12/24/install-miniconda-on-mac/
+
 Configuring RStudio:
 - Turn off RData in General Settings (in General -> Workspace)
 - Turn on Margins (Code -> Display -> Margins)
@@ -27,3 +30,4 @@ Configuring RStudio:
 ```
 install.packages(c("tidyverse", "devtools", "compare", "nycflights13", "googlesheets", "jsonlite", "httr", "rvest", "DBI", "hexbin", "rmarkdown", "knitr", "styler"))
 ```
+

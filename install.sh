@@ -64,22 +64,25 @@ git clone https://github.com/vim-airline/vim-airline-themes $HOME/.vim/bundle/vi
 
 
 #==================================================#
+# Install miniconda3
+# http://deeplearning.lipingyang.org/2018/12/24/install-miniconda-on-mac/
+# 
 # anaconda3
-if [ "$install_conda" = "true" ]; 
-then
-    source "$PWD/aliases/conda"
-    if [ $(checkconda) = "true" ]; then
-        echo; echo "** anaconda already exists."
-    else
-        echo; echo "** anaconda does not exist. download anaconda3."
-        wget https://repo.continuum.io/archive/Anaconda3-5.0.1-Linux-x86_64.sh -O anaconda.sh
-        echo; echo "** install anaconda3."
-        bash anaconda.sh -b -p $HOME/anaconda3
-        rm anaconda.sh
-        #conda update conda --yes
-        #conda update anaconda --yes
-    fi
-fi
+# if [ "$install_conda" = "true" ]; 
+# then
+#     source "$PWD/aliases/conda"
+#     if [ $(checkconda) = "true" ]; then
+#         echo; echo "** anaconda already exists."
+#     else
+#         echo; echo "** anaconda does not exist. download anaconda3."
+#         wget https://repo.continuum.io/archive/Anaconda3-5.0.1-Linux-x86_64.sh -O anaconda.sh
+#         echo; echo "** install anaconda3."
+#         bash anaconda.sh -b -p $HOME/anaconda3
+#         rm anaconda.sh
+#         #conda update conda --yes
+#         #conda update anaconda --yes
+#     fi
+# fi
 
 
 #==================================================#

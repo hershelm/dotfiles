@@ -2,7 +2,7 @@
 ### set default paths
 
 export PATH=$HOME/bin:/usr/local/bin:/usr/local/cuda/bin:$PATH
-export PATH=$HOME/anaconda3/bin:$PATH # anaconda3
+export PATH=$PATH:$HOME/miniconda3/bin #install miniconda (bash)
 export PATH=$HOME/.local/bin:$PATH
 export MYVIMRC=$HOME/.vimrc
 export SHELL=$(which zsh)
